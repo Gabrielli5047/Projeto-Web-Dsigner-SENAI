@@ -1,0 +1,16 @@
+.imagens{
+    display: flex;
+    max-width: 110%;
+    margin-top: 50px;
+    justify-content: space-around;
+
+}
+.imagens img:hover{
+    transform: scale(1.1);
+}
+.imagens img{
+    border-radius: 30px;
+    width: 250px;
+    border: 1px solid rgb(99, 99, 99);
+    box-shadow: 5px 5px 10px gray;
+}

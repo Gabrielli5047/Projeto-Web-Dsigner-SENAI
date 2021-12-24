@@ -1,0 +1,28 @@
+
+/* ====================  SOBRE*/
+.h3{
+    margin-top: 1px;
+}
+.containerSobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.containerSob{
+    height: 470px;
+    width: 400px;
+    padding: 25px;
+    text-align: justify;
+    background-color: white;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 20px;
+    position: fixed;
+}
+/* ==================== */

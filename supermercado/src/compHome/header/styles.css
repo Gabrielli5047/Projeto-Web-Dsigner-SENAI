@@ -1,0 +1,79 @@
+.header{
+    background-color: rgb(99, 98, 98);
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    font-family: sans-serif;
+}
+b:hover{
+    color: rgb(30, 255, 0);
+    transform: scale(1);
+}
+.h1:hover{
+    color: rgb(30, 255, 0);
+    transform: scale(1.2);
+}
+.carLog{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.carrinho{
+    width: 70px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+}
+.carrinhoo{
+    display: flex;
+    align-items: center;
+}
+.login img{
+    width: 50px;
+}
+.login:hover{
+    transform: scale(1.2);
+}
+.carrinhoo:hover{
+    transform: scale(1.2);
+}
+.sessoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgb(99, 98, 98);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    z-index: 3;
+    padding: 15px;
+}
+
+li:hover{
+    color: rgb(30, 255, 0);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.inputhome{
+    all: unset;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 15px;
+    width: 400px;
+    border-radius: 15px;
+    color: black;
+}
+.inputhome:hover{
+    transform: scale(1.05);
+}
+/* ==================== DEPARTAMENTO */
+
+.containerH .active{
+    text-decoration: none;
+    color: rgb(9, 226, 9);
+}
